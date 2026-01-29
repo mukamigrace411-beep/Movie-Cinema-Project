@@ -1,0 +1,56 @@
+{
+  "love": [
+    {"title":"A Tender Heart","year":2018,"rating":"7.2"},
+    {"title":"Moonlight Promises","year":2019,"rating":"7.8"},
+    {"title":"Summer of Us","year":2020,"rating":"7.0"},
+    {"title":"Letters To You","year":2016,"rating":"6.9"},
+    {"title":"Serendipity Road","year":2017,"rating":"7.4"},
+    {"title":"Whispers","year":2021,"rating":"6.8"},
+    {"title":"Forever & A Day","year":2015,"rating":"7.1"}
+  ],
+  "action": [
+    {"title":"Rogue Velocity","year":2014,"rating":"7.5"},
+    {"title":"Steel Horizon","year":2018,"rating":"7.0"},
+    {"title":"Midnight Runner","year":2020,"rating":"7.3"},
+    {"title":"Broken Shield","year":2016,"rating":"6.9"},
+    {"title":"Fast Line","year":2019,"rating":"7.2"},
+    {"title":"High Impact","year":2017,"rating":"6.8"},
+    {"title":"Final Strike","year":2021,"rating":"7.6"}
+  ],
+  "horror": [
+    {"title":"The Hollow House","year":2013,"rating":"6.9"},
+    {"title":"Night Veil","year":2015,"rating":"7.0"},
+    {"title":"Whispering Walls","year":2018,"rating":"6.7"},
+    {"title":"The Last Lullaby","year":2019,"rating":"6.5"},
+    {"title":"Shadows of Eden","year":2020,"rating":"6.8"},
+    {"title":"Crimson Door","year":2016,"rating":"6.6"},
+    {"title":"Empty Corridor","year":2017,"rating":"6.4"}
+  ],
+  "animation": [
+    {"title":"Skybound","year":2014,"rating":"8.0"},
+    {"title":"Tiny Heroes","year":2016,"rating":"7.6"},
+    {"title":"Forest Song","year":2017,"rating":"7.8"},
+    {"title":"Dream Makers","year":2018,"rating":"7.4"},
+    {"title":"Ocean Tale","year":2019,"rating":"7.2"},
+    {"title":"Starlight Express","year":2020,"rating":"7.9"},
+    {"title":"Little Giants","year":2015,"rating":"7.1"}
+  ],
+  "heist": [
+    {"title":"The Long Con","year":2012,"rating":"7.7"},
+    {"title":"Quiet Hands","year":2015,"rating":"7.3"},
+    {"title":"Vault 7","year":2016,"rating":"7.0"},
+    {"title":"Midnight Score","year":2018,"rating":"7.4"},
+    {"title":"Blue Envelope","year":2019,"rating":"6.9"},
+    {"title":"Inside Job","year":2017,"rating":"7.2"},
+    {"title":"Clean Getaway","year":2021,"rating":"7.5"}
+  ],
+  "adventure": [
+    {"title":"Beyond the Map","year":2013,"rating":"7.4"},
+    {"title":"Lost Canyon","year":2015,"rating":"7.1"},
+    {"title":"Treasure of Orion","year":2016,"rating":"7.6"},
+    {"title":"Island of Echoes","year":2018,"rating":"7.0"},
+    {"title":"Trailblazers","year":2019,"rating":"7.3"},
+    {"title":"Echo Ridge","year":2017,"rating":"6.8"},
+    {"title":"Compass Point","year":2020,"rating":"7.2"}
+  ]
+}

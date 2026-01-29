@@ -3,12 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Movie Cinema</title>
 </head>
 <body>
-    <h2 class="title">hello</h2>
-    
+    <header class="header">
+        <h1>Movie Cinema</h1>
+        <div class="crud-bar">
+            <button id="add-movie-btn">Add Movie</button>
+            <button id="import-btn">Import JSON</button>
+            <button id="export-btn">Export JSON</button>
+            <button id="reset-btn">Reset Data</button>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="column" id="left-column">
+            <!-- left categories inserted here -->
+        </div>
+
+        <div class="column" id="right-column">
+            <!-- right categories inserted here -->
+        </div>
+    </main>
+
+    <!-- Modal for add/edit -->
+    <div id="modal" class="modal hidden">
+        <div class="modal-content">
+            <h3 id="modal-title">Add Movie</h3>
+            <form id="movie-form">
+                <label>Category
+                    <select id="movie-category"></select>
+                </label>
+                <label>Title
+                    <input type="text" id="movie-title" required>
+                </label>
+                <label>Year
+                    <input type="number" id="movie-year">
+                </label>
+                <label>Rating
+                    <input type="text" id="movie-rating">
+                </label>
+                <div class="modal-actions">
+                    <button type="submit" id="save-btn">Save</button>
+                    <button type="button" id="cancel-btn">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <input id="file-input" type="file" accept="application/json" style="display:none">
+
+    <script src="script.js"></script>
 </body>
 </html>
